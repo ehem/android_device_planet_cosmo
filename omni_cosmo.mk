@@ -18,10 +18,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_Cosmo_Communicator
-PRODUCT_DEVICE := Cosmo_Communicator
+PRODUCT_NAME := omni_cosmo
+PRODUCT_DEVICE := cosmo
 PRODUCT_BRAND := Planet
-PRODUCT_MODEL := Cosmo_Communicator
+PRODUCT_MODEL := Cosmo Communicator
 PRODUCT_MANUFACTURER := Planet
 
 PRODUCT_RELEASE_NAME := cosmo

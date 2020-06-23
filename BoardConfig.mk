@@ -1,5 +1,5 @@
 # Device path
-DEVICE_PATH := device/planet/Cosmo_Communicator
+DEVICE_PATH := device/planet/cosmo
 
 ALLOW_MISSING_DEPENDENCIES := true
 

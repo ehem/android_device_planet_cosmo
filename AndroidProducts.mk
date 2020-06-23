@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Cosmo_Communicator.mk
+    $(LOCAL_DIR)/omni_cosmo.mk

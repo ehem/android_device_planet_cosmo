@@ -1,2 +1,2 @@
-add_lunch_combo omni_Cosmo_Communicator-eng
-add_lunch_combo omni_Cosmo_Communicator-userdebug
+add_lunch_combo omni_cosmo-eng
+add_lunch_combo omni_cosmo-userdebug
