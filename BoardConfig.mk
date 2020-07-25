@@ -50,7 +50,9 @@ BOARD_SECOND_OFFSET := 0x00e88000
 BOARD_KERNEL_TAGS_OFFSET := 0x13f88000
 
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
+TARGET_KERNEL_CONFIG := k71v1_64_bsp_defconfig
+TARGET_KERNEL_SOURCE := kernel/planet/mt6771
+BOARD_KERNEL_IMAGE_NAME := vmlinuz
 BOARD_MKBOOTIMG_ARGS := --base $(BOARD_KERNEL_BASE) --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --second_offset $(BOARD_SECOND_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
 # system.prop
