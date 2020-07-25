@@ -76,5 +76,8 @@ TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered,lazytime"
 TW_INCLUDE_REPACKTOOLS := true
 
+TARGET_USERIMAGES_USE_EXT4 := true
+TW_INCLUDE_CRYPTO_FBE := true
+
 # required to mount /data/ because of version binding...
 PLATFORM_SECURITY_PATCH := 2019-07-05
