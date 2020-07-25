@@ -1,0 +1,6 @@
+[
+	{
+		"repository": "android_kernel_planet_mt6771",
+		"target_path": "kernel/planet/mt6771",
+	},
+]
